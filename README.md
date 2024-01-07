@@ -7,7 +7,7 @@
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/your-username/timer-js.git
+    git clone https://github.com/enwa1ker/ClockJS
     ```
 
 2. Откройте файл `index.html` в вашем веб-браузере.
