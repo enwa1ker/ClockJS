@@ -1,12 +1,16 @@
-// Создание экземпляра калькулятора
-const calculator = new Calculator();
+// Создание экземпляра таймера
+const timer = new Timer();
 
-// Выполнение операций
-calculator.add(5);
-calculator.subtract(3);
-calculator.multiply(2);
-calculator.divide(4);
+// Установка времени (в секундах)
+timer.setTimer(300);
 
-// Получение результата
-const result = calculator.getResult();
-console.log(result); // Выводит 2
+// Запуск таймера
+timer.start();
+
+// Определение действия по истечении времени
+timer.onTimerEnd(() => {
+    console.log("Время вышло!");
+});
+
+// Остановка таймера (если необходимо)
+// timer.stop();
