@@ -1,1 +1,1 @@
-
+timer on vanilla JS
